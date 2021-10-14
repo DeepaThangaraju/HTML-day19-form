@@ -1,0 +1,76 @@
+<html>
+    <title>
+        Form
+    </title>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h3>Registration Form</h3>
+            <form id="myform">
+                <label for="first">First Name</label><br>
+                <input type="text"  id="first" placeholder="First Name"/><br>
+                <label for="second">Second Name</label><br>
+                <input type="text"  id="second" placeholder="second Name"/><br>
+                <label for="area">Adress</label><br>
+                <textarea id="area"></textarea><br>
+                <label for="pincode">Pincode</label><br>
+                <input type="text"  id="pincode" placeholder="pincode" /><br>
+                <label>Gender</label><br>
+                <input type="radio" id="male" name="gender" value="male"/>
+                <label>Male</label>
+                <input type="radio" id="female" name="gender" value="female"/>
+                <label>Female</label><br>
+                <label>Choice of food(select atleast 2 items)</label><br>
+                <input type="checkbox" id="c1" value="dosa" >
+                <label>Dosa</label>
+                <input type="checkbox" id="c2" value="Idly">
+                <label>Idly</label>
+                <input type="checkbox" id="c3" value="Chapathi">
+                <label>Chapathi</label>
+                <input type="checkbox"  id="c4" value="Briyani">
+                <label>Briyani</label>
+                <input type="checkbox" id="c5" value="Desert">
+                <label>Desert</label><br>
+                <label>State</label>
+                <select id=state>
+                    <option>Tamil nadu</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Arunachal Pradesh</option>
+                    <option>Assam</option>
+                    <option>Bihar</option>
+                    <option>Chhattisgarh</option>
+                    <option>Goa</option>
+                    <option>Gujarat</option>
+                    <option>Haryana</option>
+                    <option>Himachal Pradesh</option>
+                    <option>Jharkhand</option>
+                    <option>Karnataka</option>
+                    <option>Kerala</option>
+                </select><br>
+                <label>Country</label>
+                <select id="country">
+                    <option>India</option>
+                </select><br>
+                <button type="button" onclick="getInputValue();">submit</button>
+    
+
+            </form>
+            <div style="overflow-x:auto;">
+            <table id='mytable'>
+                
+                
+            </table>
+        </div>
+        </div>
+        <script src="script.js"></script>
+        
+        
+        
+        
+    </body>
+</html>

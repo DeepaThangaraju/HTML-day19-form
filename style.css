@@ -1,0 +1,40 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding :0.5rem;
+    
+  }
+  th{
+    background-color: white;
+  }
+  table{
+    width:100%;
+    
+  
+  }
+  tr:nth-child(odd) {  
+    background-color: #f2f2f2;
+   
+  } 
+  .container{
+    margin:0 auto;
+    width:50%;
+    text-align: center;
+    background-image: linear-gradient(to right top, #4aebf2, #2cdcff, #77c6ff, #bfa9ff, #f089d5);
+    font-family: 'Courgette', cursive;
+  }
+  h3{
+    background-color: rgb(131, 247, 231);
+    padding:1rem;
+  }
+  label{
+    padding:0px;
+    margin: 0px;
+  }
+  #myform input,textarea,select{
+    margin:0rem 0rem 2rem 0rem;
+    
+  }
